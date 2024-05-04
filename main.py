@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-imagePath = 'assets/input_image.jpg'
+imagePath = 'assets/I_d_better_say_it_now.mp4'
 img = cv2.imread(imagePath)
 #print(img.shape)
 #(604, 448, 3)
