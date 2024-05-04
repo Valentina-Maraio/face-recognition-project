@@ -10,7 +10,7 @@ face_classifier = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
-video_path = "assets/I_d_better_say_it_now.mp4"
+video_path = ""
 video_capture = cv2.VideoCapture(video_path)
 
 
@@ -23,7 +23,6 @@ def detect_bounding_box(vid):
 
 
 i = 0
-
 
 while True:
 

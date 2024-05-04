@@ -1,7 +1,7 @@
 import cv2
 import os
 
-detected_folder = 'assets/detected'
+detected_folder = 'assets/I_d_better_say_it_now'
 if not os.path.exists(detected_folder):
     os.makedirs(detected_folder)
 
