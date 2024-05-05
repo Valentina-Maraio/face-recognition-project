@@ -2,7 +2,7 @@ import cv2
 import os
 #from deepface import DeepFace
 
-detected = 'assets/detected'
+detected = 'assets/last_seconds_scene'
 if not os.path.exists(detected):
     os.makedirs(detected)
 
@@ -10,7 +10,7 @@ face_classifier = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
-video_path = ""
+video_path = "assets/last_seconds.mp4"
 video_capture = cv2.VideoCapture(video_path)
 
 
